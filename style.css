@@ -311,7 +311,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#services {
   position: relative;
 }
 
@@ -420,6 +420,7 @@ article .icon {
 footer {
   height: 26vh;
   background-color: #007FFF;
+  color: white;
 }
 
 #footer-content{
