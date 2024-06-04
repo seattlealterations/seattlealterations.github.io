@@ -423,6 +423,7 @@ article .icon {
 footer {
   height: 26vh;
   margin: 0 1rem;
+  background-color: #007FFF;
 }
 
 footer p {
