@@ -421,11 +421,13 @@ footer {
   height: 26vh;
   background-color: #007FFF;
   color: white;
+  text-align: center;
 }
 
 #footer-content{
 background-color: #007FFF;
   color: white;
+  text-align: center;
 }
 
 footer p {
