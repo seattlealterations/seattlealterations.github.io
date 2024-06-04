@@ -429,3 +429,7 @@ footer p {
 ul {
   list-style-position: inside;
 }
+
+li{
+    margin-left:50px;
+}
