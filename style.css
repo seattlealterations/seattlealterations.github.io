@@ -167,8 +167,9 @@ section {
 }
 
 .section__pic-container {
-  display: flex;
   margin: auto 0;
+  display: grid;
+  place-items: center;
 }
 
 .section__text {
