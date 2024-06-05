@@ -172,9 +172,10 @@ section {
 
 .section__pic-container {
   height: 400px;
-  width: 600px;
+  width: 400px;
   margin: auto;
   display: flex;
+  align-self: center;
 }
 
 .section__text {
