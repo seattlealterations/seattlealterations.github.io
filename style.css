@@ -174,7 +174,6 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
