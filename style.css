@@ -388,7 +388,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 120vh;
 }
 
 .contact-info-upper-container {
