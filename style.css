@@ -387,7 +387,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
@@ -420,26 +420,15 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
-
 /* FOOTER SECTION */
 
 footer {
   height: 26vh;
-  color: black;
-  text-align: center;
+  margin: 0 1rem;
 }
 
 footer p {
   text-align: center;
-  
-#footer-content{
-  color: black;
-  text-align: center;
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
 }
 
 #bolder{
