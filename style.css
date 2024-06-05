@@ -173,7 +173,6 @@ section {
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin: auto;
   display: flex;
   align-self: center;
 }
