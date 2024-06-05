@@ -435,11 +435,3 @@ footer p {
   text-align: center;
   color: white;
 }
-
-ul {
-  list-style-position: inside;
-}
-
-li{
-    margin-left:50px;
-}
