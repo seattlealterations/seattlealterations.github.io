@@ -2,17 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
-#footer-content{
-  background-color: #007FFF;
-  color: white;
-  text-align: center;
-  padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
-  box-sizing: border-box;
-  min-height: fit-content;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -434,13 +423,21 @@ article .icon {
 
 footer {
   height: 26vh;
-  background-color: #007FFF;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 footer p {
   text-align: center;
+#footer-content{
+  color: black;
+  text-align: center;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
 
 ul {
   list-style-position: inside;
