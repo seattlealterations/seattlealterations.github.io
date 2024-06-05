@@ -60,6 +60,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  align-items: left;
 }
 
 .logo:hover {
@@ -163,13 +164,18 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+  display: flex;
   justify-content: center;
+  gap: 5rem;
+  height: 80vh;
 }
 
 .section__pic-container {
-  margin: auto 0;
-  display: grid;
-  place-items: center;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  align-self: center;
 }
 
 .section__text {
@@ -420,18 +426,30 @@ article .icon {
 
 footer {
   height: 26vh;
-  background-color: #007FFF;
-  color: white;
-  text-align: center;
-}
-
-#footer-content{
-background-color: #007FFF;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 footer p {
   text-align: center;
-  color: white;
+  
+#footer-content{
+  color: black;
+  text-align: center;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+#bolder{
+  font-weight: bold;
+}
+ul {
+  list-style-position: inside;
+}
+
+li{
+    margin-left:50px;
 }
