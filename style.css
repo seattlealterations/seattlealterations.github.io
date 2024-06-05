@@ -60,7 +60,6 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  align-items: left;
 }
 
 .logo:hover {
@@ -164,17 +163,13 @@ section {
 /* PROFILE SECTION */
 
 #profile {
-  display: flex;
   justify-content: center;
-  gap: 5rem;
-  height: 80vh;
 }
 
 .section__pic-container {
-  height: 400px;
-  width: 400px;
-  display: flex;
-  align-self: center;
+  margin: auto 0;
+  display: grid;
+  place-items: center;
 }
 
 .section__text {
@@ -420,24 +415,31 @@ article .icon {
 .email-icon {
   height: 2.5rem;
 }
+
 /* FOOTER SECTION */
 
 footer {
   height: 26vh;
-  margin: 0 1rem;
+  background-color: #007FFF;
+  color: white;
+  text-align: center;
+}
+
+#footer-content{
+background-color: #007FFF;
+  color: white;
+  text-align: center;
 }
 
 footer p {
   text-align: center;
+  color: white;
 }
 
-#bolder{
-  font-weight: bold;
-}
 ul {
   list-style-position: inside;
 }
 
 li{
-    margin-left:80px;
+    margin-left:50px;
 }
