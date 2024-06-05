@@ -2,6 +2,17 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+#footer-content{
+  background-color: #007FFF;
+  color: white;
+  text-align: center;
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -428,16 +439,8 @@ footer {
   text-align: center;
 }
 
-#footer-content{
-background-color: #007FFF;
-  color: white;
-  text-align: center;
-}
-
 footer p {
   text-align: center;
-  color: white;
-}
 
 ul {
   list-style-position: inside;
