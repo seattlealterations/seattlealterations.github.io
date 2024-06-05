@@ -445,10 +445,7 @@ footer p {
 #bolder{
   font-weight: bold;
 }
-ul {
-  list-style-position: inside;
-}
 
-li{
-    margin-left:80px;
+ul{
+    margin:1em;
 }
