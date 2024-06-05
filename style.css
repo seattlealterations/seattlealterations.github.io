@@ -173,6 +173,7 @@ section {
   width: 600px;
   margin: auto;
   display: flex;
+  align-items: center;
 }
 
 .section__text {
