@@ -440,6 +440,9 @@ footer p {
   min-height: fit-content;
 }
 
+#bolder{
+  font-weight: bold;
+}
 ul {
   list-style-position: inside;
 }
