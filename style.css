@@ -156,7 +156,7 @@ a:hover {
 
 /* SECTIONS */
 
-section {
+ section {
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -166,26 +166,26 @@ section {
 
 .section-container {
   display: flex;
-}
+} 
 
 /* PROFILE SECTION */
 
-#profile {
+ #profile {
   display: block;
   justify-content: center;
   gap: 5rem;
   height: 80vh;
   margin: 1 auto;
-}
+} 
 
 .section__pic-container {
   display: flex;
   width: 100%;
   height: auto;
-  margin: auto 0;
+  margin: auto;
   padding-left: 4%;
-  
-}
+  max-width: 100%;
+} 
 
 .section__text {
   align-self: center;
