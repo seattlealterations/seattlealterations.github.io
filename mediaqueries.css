@@ -262,6 +262,9 @@
   .text-container {
     text-align: justify;
   }
+  .nav-links-container{
+    padding-right: 9%;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -301,6 +304,10 @@
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
+  }
+
+  .nav-links-container{
+    padding-right: 9%;
   }
   .section__pic-container {
     width: auto;
