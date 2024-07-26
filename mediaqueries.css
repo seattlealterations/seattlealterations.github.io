@@ -1,7 +1,7 @@
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 2000px) {
   #profile {
     height: 96vh;
-    margin-bottom: 6rem;
+    padding-right: 40%;
   }
   .about-containers {
     flex-wrap: wrap;
@@ -34,29 +34,49 @@
   .section-container {
     height: fit-content;
   }
-  section {
-    margin: 0 5%;
-  }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    width: 475px;
+    height: 475px;
+    margin: 0 auto;
   }
   .about-containers {
     margin-top: 0;
 }
 
+
 @media screen and (max-width: 1400px) {
-  #profile {
-    height: 96vh;
-    margin-bottom: 6rem;
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #services,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+    
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 375px;
+    height: 375px;
+    margin: 0 auto;
   }
   .about-containers {
-    flex-wrap: wrap;
-  }
-  #contact,
-  #projects {
-    height: fit-content;
+    margin-top: 0;
   }
 }
 
@@ -74,6 +94,7 @@
   #profile,
   .section-container {
     display: block;
+    
   }
   .arrow {
     display: none;
@@ -86,8 +107,8 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 375px;
+    height: 375px;
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -135,8 +156,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 275px;
+    height: 275px;
     justify-content: center;
   }
   .section__text__p2 {
@@ -157,6 +178,7 @@
   }
   #profile {
     height: 46vw;
+    padding-right: 3%;
   }
   article {
     font-size: 1rem;
@@ -265,6 +287,7 @@
   }
   #profile {
     height: 46vw;
+    padding-right: 30%;
   }
   article {
     font-size: 1rem;
@@ -322,6 +345,7 @@
   }
   #profile {
     height: 46vw;
+    padding-right: 20%;
   }
   article {
     font-size: 1rem;
