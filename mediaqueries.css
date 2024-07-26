@@ -1,3 +1,20 @@
+@media screen and (max-width: 1800px) {
+  #profile {
+    height: 96vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+  #services {
+    margin-bottom: 6rem;
+  }
+}
+
 @media screen and (max-width: 1400px) {
   #profile {
     height: 96vh;
