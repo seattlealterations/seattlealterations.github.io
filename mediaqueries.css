@@ -186,12 +186,31 @@
   }
   #hamburger-nav {
     display: flex;
+    padding: 0 1rem;
+    width: calc(100% - 2rem);
   }
   .logo {
     display: block;
     font-size: 1.5rem;
     margin-left: 0;
     padding-left: 0;
+  }
+  .hamburger-menu {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links {
+    width: 180px;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links li {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links a {
+    padding: 12px 20px;
+    margin: 0;
   }
   #profile {
     padding-top: 20px;
@@ -240,6 +259,24 @@
     display: block;
     margin-left: 0;
     padding-left: 0;
+  }
+  .hamburger-menu {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links {
+    width: 160px;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links li {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links a {
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    margin: 0;
   }
   #services {
     padding: 20px 5% 2rem 5%;
@@ -290,6 +327,24 @@
 
 /* Very small mobile screens */
 @media screen and (max-width: 400px) {
+  .hamburger-menu {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links li {
+    margin: 0;
+    padding: 0;
+  }
+  .menu-links a {
+    padding: 8px 12px;
+    font-size: 1rem;
+    margin: 0;
+  }
   .section__pic-container {
     max-width: 100%;
     margin: 0;
