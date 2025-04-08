@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Seattle Alterations</title>
+    <title>Seattle Alterations | Professional Tailoring Services</title>
+    <meta name="description" content="Seattle Alterations offers professional tailoring services with over 29 years of experience. Specializing in clothing alterations, repairs, and custom fittings." />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✂️</text></svg>" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -14,6 +17,8 @@
       <div class="nav-links-container">
         <ul class="nav-links">
           <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#footer-content">Contact Us</a></li>
         </ul>
       </div>
     </nav>
@@ -28,123 +33,192 @@
         <div class="menu-links">
           <ul>
             <li><a href="#services" onclick="toggleMenu()">Services</a></li>
-            <!-- <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> -->
+            <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+            <li><a href="#footer-content" onclick="toggleMenu()">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Sewing Machine Picture" />
+        <img src="./assets/profile-pic.png" alt="Professional Sewing Machine at Seattle Alterations" />
+        <div class="overlay">
+          <h2>Premium Tailoring in Seattle</h2>
+          <p>Over 29 years of experience; Enjoy expert craftsmanship and personalized service
+            for all your clothing alteration needs</p>
+        </div>
       </div>
     </section>
     
     <section id="services">
-      <hr> 
-      <h1 class="title">Services</h1>
-      <h4>With over 29 years of experience, we offer almost all kinds of clothing alterations and repair. Feel free to bring in any item, and we will work 1:1 to make sure you are happy and look your best. Here are some common services we offer,</h4>
-       <br>   
-      <div class="text-container">
-            <ul>
-            <li>👖 Pants and Jeans
-                <ul>
-                    <li>Hemming and original hem</li>
-                    <li>Taking in or letting out (for better waist fit)</li>
-                    <li>Crotch, around hips (taking in and out)</li>
-                    <li>Tapering lined or unlined pants</li>
-                </ul>
-            </li>
-            <li>👔 Shirts and Blouses
-                <ul>
-                    <li>Sleeve adjustments</li>
-                    <li>Shoulder and arm fitting</li>
-                    <li>Taking in or letting out</li>
-                    <li>Shorten and Lengthening</li>
-                </ul>
-            </li>
-            <li>🧥 Jackets and Coats
-                <ul>
-                    <li>Sleeve adjustments</li>
-                    <li>Shoulder and arm fitting</li>
-                    <li>Taking in or letting out</li>
-                    <li>Shorten and Lengthening</li>
-                </ul>
-            </li>
-            <li>👰 Wedding
-                <ul>
-                    <li>1:1 consultation to have the dress fit perfectly for your special day</li>
-                </ul>
-            </li>
-            <li>👗 Dresses and Skirts
-                <ul>
-                    <li>Hemming</li>
-                    <li>Taking in or letting out</li>
-                    <li>1:1 consultation to have the dress fit perfectly</li>
-                </ul>
-            </li>
-            <li>🧵 Repairs and Miscellaneous
-                <ul>
-                    <li>Buttons (replacing or making buttonholes for shirts, jackets, etc.)</li>
-                    <li>Zippers</li>
-                    <li>Fasteners (replacing and fixing)</li>
-                    <li>Velcro patches and patching</li>
-                    <li>Tears and rips</li>
-                    <li>Extra holes for belt</li>
-                    <li>Replace and repair elastic bands</li>
-                </ul>
-            </li>
-        </ul>
+      <h1 class="title">Our Services</h1>
+      <h4>With over 29 years of experience, we specialize in all types of clothing alterations and repairs. Bring in any garment, and we'll work with you personally to ensure perfect fit and satisfaction. Our commitment is helping you look and feel your best.</h4>
+       
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-tshirt"></i>
           </div>
-    </section>
-    <!-- <section id="contact">
-      <hr>
-      <br>
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img
-            src="./assets/email.png"
-            alt="Email icon"
-            class="icon contact-icon email-icon"/>
-          <p><a href="mailto:seattlealterations@gmail.com">seattlealterations@gmail.com</a></p>
-        </div>
-      </div>
-    </section> -->
-     <section id="footer-content">
-       <footer>
-        <hr>
-        <br>
-            <h2>Seattle Alterations</h2>
-             <br>
-            <p><strong>Address: </strong>8115 Stone Ave North Seattle, Washington 98103</p>
-            <p>N Green Lake Dr & 82st St</p>
-             <br>
-            <p><strong>Phone: </strong> 206-424-2806</p>
-            <br>
-            <p><strong>Hours: </strong></p>
-            <p>Mon-Fri: 10:00 AM - 7:00 PM</p>
-            <p>Sat: 10:00 AM - 3:00 PM</p>
-            <p>Sun: Closed</p>
-            <p>Holidays: Closed</p>
-            <br>
-            <p>Walk ins are welcomed; No appointment needed.</p>
-            <p><a href="https://www.yelp.com/map/seattle-alterations-seattle">Yelp</a></p>
-      
-    <br>
-         <br>
-         <hr>
-      <!-- <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li> 
+          <h3>Pants and Jeans</h3>
+          <ul>
+            <li>Hemming and original hem</li>
+            <li>Taking in or letting out (for better waist fit)</li>
+            <li>Crotch, around hips (taking in and out)</li>
+            <li>Tapering lined or unlined pants</li>
           </ul>
         </div>
-      </nav> -->
-      <p>Copyright &#169; 2024 Seattle Alterations. All Rights Reserved.</p>
-    </footer>
-       
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Shirts and Blouses</h3>
+          <ul>
+            <li>Sleeve adjustments</li>
+            <li>Shoulder and arm fitting</li>
+            <li>Taking in or letting out</li>
+            <li>Shorten and Lengthening</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-vest"></i>
+          </div>
+          <h3>Jackets and Coats</h3>
+          <ul>
+            <li>Sleeve adjustments</li>
+            <li>Shoulder and arm fitting</li>
+            <li>Taking in or letting out</li>
+            <li>Shorten and Lengthening</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-ring"></i>
+          </div>
+          <h3>Wedding</h3>
+          <ul>
+            <li>1:1 consultation to have the dress fit perfectly for your special day</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-female"></i>
+          </div>
+          <h3>Dresses and Skirts</h3>
+          <ul>
+            <li>Hemming</li>
+            <li>Taking in or letting out</li>
+            <li>1:1 consultation to have the dress fit perfectly</li>
+          </ul>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Repairs and Miscellaneous</h3>
+          <ul>
+            <li>Buttons (replacing or making buttonholes for shirts, jackets, etc.)</li>
+            <li>Zippers</li>
+            <li>Fasteners (replacing and fixing)</li>
+            <li>Velcro patches and patching</li>
+            <li>Tears and rips</li>
+            <li>Extra holes for belt</li>
+            <li>Replace and repair elastic bands</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section id="testimonials">
+      <h1 class="title">Customer Testimonials</h1>
+      <h4>See what our satisfied customers have to say about our alteration services.</h4>
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <div class="testimonial-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"I am very happy with the service provided at Seattle Alterations! I have had many formal dresses hemmed here. Many of which have had 2+ layers. Stitching looks great and correct length every time! Items are ready when requested,and I get a text when it’s time to pick up which is nice. Definitely recommend!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-author-icon">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="testimonial-author-info">
+              <p class="testimonial-author-name">Satisfied Customer</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"
+            had a fantastic experience with seattle alterations! the family behind it is warm and genuine. i was amazed by the quality of their work, and they even finished ahead of schedule. plus, the pricing was unbeatable. highly recommend them to anyone in seattle needing alterations!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-author-icon">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="testimonial-author-info">
+              <p class="testimonial-author-name">Satisfied Customer</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-card">
+          <div class="testimonial-icon">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="testimonial-text">"Always does a fantastic job!!! My husband and I have been coming here for years and have gotten gowns, suits, dresses, and pants tailored here with a perfect result every time — details are paid attention to, which I really appreciate. Prices are reasonable for Seattle, as well. I’ll never go elsewhere!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-author-icon">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="testimonial-author-info">
+              <p class="testimonial-author-name">Satisfied Customer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="footer-content">
+      <footer>
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Address: 8115 Stone Ave North Seattle, Washington 98103</p>
+            <p>N Green Lake Dr & 82st St</p>
+            <p>Phone: 206-424-2806</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Hours</h3>
+            <p>Mon-Fri: 10:00 AM - 6:30 PM</p>
+            <p>Sat: 10:00 AM - 3:30 PM</p>
+            <p>Sun: Closed</p>
+            <p>Holidays: Closed</p>
+            <p>Walk-ins welcome. No appointment necessary.</p>
+          </div>
+          
+          <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="https://www.yelp.com/map/seattle-alterations-seattle" class="social-icon" aria-label="Yelp">
+                <i class="fab fa-yelp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>Copyright &#169; 2025 Seattle Alterations. All Rights Reserved.</p>
+        </div>
+      </footer>
     </section>
     <script src="script.js"></script>
   </body>
