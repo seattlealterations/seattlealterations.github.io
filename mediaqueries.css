@@ -35,7 +35,8 @@
     display: block;
   }
   nav {
-    padding: 0 2rem;
+    display: flex;
+    padding: 1.5rem 10%;
   }
   .logo {
     margin-left: 0;
@@ -43,7 +44,8 @@
     display: block;
   }
   .nav-links {
-    margin-left: auto;
+    display: flex;
+    gap: 2.5rem;
   }
   
   /* Testimonials for larger screens */
@@ -121,7 +123,8 @@
 
 /* Medium screens */
 @media screen and (max-width: 1200px) and (min-width: 769px) {
-  #desktop-nav {
+  nav {
+    display: flex;
     padding: 1.5rem 5%;
   }
   #hamburger-nav {
@@ -196,9 +199,8 @@
     font-size: 1.5rem;
   }
   .nav-links {
-    margin-left: auto;
-    gap: 1.5rem;
-    text-align: center;
+    display: flex;
+    gap: 2rem;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -253,19 +255,11 @@
 
 /* Tablet screens */
 @media screen and (max-width: 768px) {
-  #desktop-nav {
+  nav {
     display: none;
   }
   #hamburger-nav {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 5%;
-    background-color: white;
-    box-shadow: var(--shadow);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
   }
   .logo {
     display: block;
@@ -317,9 +311,7 @@
     padding: 100px 5% 2rem 5%;
   }
   .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
+    display: none;
   }
   
   /* Testimonials for tablet screens */
@@ -420,9 +412,11 @@
 
 /* Mobile screens */
 @media screen and (max-width: 600px) {
-  nav, #hamburger-nav {
-    padding: 0 1rem;
-    width: calc(100% - 2rem);
+  nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
   }
   .logo {
     font-size: 1.3rem;
